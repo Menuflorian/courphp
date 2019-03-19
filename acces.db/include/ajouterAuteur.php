@@ -10,7 +10,7 @@ require_once('../include/infoConnexion.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <title>Consulter auteur</title>
+    <title>Ajouter auteur</title>
 </head>
 <body>
     <div class="container col-lg-9 flex justify-content-end">
@@ -18,7 +18,7 @@ require_once('../include/infoConnexion.php');
     		<div class="card">
     			<div class="card-header align-items-center d-flex justify-content-between">
     				<div class="containerfluid">
-    					<h3>Consulter un auteur</h3>
+    					<h3>Ajouter un auteur</h3>
                     </div>
                     <div class="containerfluid">
     					<a href="../sProgramme.php" class="btn btn-primary ">Retour à la liste</a>
