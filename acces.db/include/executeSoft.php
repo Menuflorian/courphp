@@ -18,5 +18,4 @@ function executeRequete($cnx, $sql, $parametre = null){
         $resultat -> execute($parametre);
     }
     return $resultat ;
-
 }
