@@ -11,4 +11,3 @@ if (isset($_POST['Supprimer'])) {
     header('Location: ../sProgramme.php');
     exit();
 }
-?>

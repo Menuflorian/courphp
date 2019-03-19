@@ -27,7 +27,7 @@ $row = $idRequete -> fetch();
     					<h3>Consulter un auteur</h3>
                     </div>
                     <div class="containerfluid">
-    					<a href="../sProgramme.php" class="btn btn-primary ">Retour à la liste</a>
+    					<a href="../sProgramme.php" class="btn btn-primary">Retour à la liste</a>
                     </div>
     			</div>
     			<div class="card-body">
@@ -53,7 +53,7 @@ $row = $idRequete -> fetch();
     				</table>
     			</div>
     		</div>
-    		<div><br></div>
-
+        </div>
+    </div>
 </body>
 </html>

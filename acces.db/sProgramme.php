@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Ma page</title>
 </head>
 <body>
     <?php
-        require_once('db/bibliotheque.php');
+        require_once('include/connexion.php');
+        require_once('include/executeSoft.php');
+        require_once('include/infoConnexion.php');
 
         $cnx = connexion();
         echo "<div class='row'><div class='container'>";

@@ -14,4 +14,3 @@ if (isset($_POST['id_auteur']) and isset($_POST['modifierNom']) and isset($_POST
     header('Location: ../sProgramme.php');
     exit();
 }
-?>

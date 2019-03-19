@@ -13,4 +13,3 @@ if (isset($_POST['nouveauNom']) and isset($_POST['nouveauPrenom']) and isset($_P
     header('Location: ../sProgramme.php');
     exit();
 }
-?>
