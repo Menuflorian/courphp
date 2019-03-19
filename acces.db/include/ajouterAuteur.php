@@ -58,8 +58,9 @@ require_once('../include/infoConnexion.php');
 
     					</tbody>
     				</table>
+    		     </div>
     		</div>
-    		<div><br></div>
-
+        </div>
+    </div>
 </body>
 </html>

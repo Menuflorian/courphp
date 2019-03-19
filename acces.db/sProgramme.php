@@ -17,7 +17,7 @@
         echo "<div class='row'><div class='container'>";
         echo "<h3><center> Les auteurs du XVIII's </center><h3></div></div>";
         $min = '1700';
-        $max = '2000';
+        $max = '1799';
         $sql = 'SELECT * FROM auteur WHERE date_naissance BETWEEN ? and ?';
         $idRequete = executeRequete($cnx, $sql, array($min, $max));
 
@@ -27,8 +27,8 @@
         echo '<thead>';
         echo '<tr>';
         echo '<th scope="col">Id</th>';
-        echo '<th scope="col">Auteur</th>';
         echo '<th scope="col">Nom</th>';
+        echo '<th scope="col">Prenom</th>';
         echo '<th scope="col">Action</th>';
         echo '</tr>';
         echo '</thead>';
@@ -42,7 +42,6 @@
                 echo '</th><th scope="row">';
                 echo $row['nom'];
                 echo '</th>';
-
                 echo '<td>';
                 echo '<div class="row justify-content-around">';
                 echo '<form action="include/consulterAuteur.php" method="post">';
