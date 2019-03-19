@@ -25,31 +25,32 @@ $row = $idRequete -> fetch();
     			<div class="card-header align-items-center d-flex justify-content-between">
     				<div class="containerfluid">
     					<h3>Consulter un auteur</h3>
-    				</div>
+                    </div>
+                    <div class="containerfluid">
+    					<a href="../sProgramme.php" class="btn btn-primary ">Retour à la liste</a>
+                    </div>
     			</div>
-
     			<div class="card-body">
     				<table class="table table-user-information">
     					<tbody>
     						<tr>
-    							<td><b>Name:</b></td>
+    							<td><b>Id:</b></td>
     							<td><?php echo $row['id_auteur']; ?></td>
     						</tr>
+                            <tr>
+    							<td><b>Nom:</b></td>
+    							<td><?php echo $row['nom']; ?></td>
+    						</tr>
     						<tr>
-    							<td><b>Username:</b></td>
+    							<td><b>Prenom:</b></td>
     							<td><?php echo $row['prenom']; ?></td>
     						</tr>
     						<tr>
-    							<td><b>Register date:</b></td>
+    							<td><b>Date de naissance:</b></td>
     							<td><?php echo $row['date_naissance']; ?></td>
     						</tr>
-
     					</tbody>
     				</table>
-    				<div class="container d-flex justify-content-between">
-    					<a href="/admin/admin-edit-profile/<?php $row['id_auteur']; ?>" class="btn btn-primary ">Editer auteur</a>
-    					<a href="/admin/admin-change-password/<?php $row['id_auteur']; ?>" class="btn btn-primary ">Supprimer auteur</a>
-    				</div>
     			</div>
     		</div>
     		<div><br></div>
