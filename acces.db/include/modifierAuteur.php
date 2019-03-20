@@ -37,7 +37,7 @@ $row = $idRequete -> fetch();
                                 <tr>
                                     <td><b>Id:</b></td>
                                     <input type="hidden" name="id_auteur" value="<?php echo $row['id_auteur']; ?>">
-                                    <td><?php echo $row['id_auteur']; ?></td>
+                                    <td><?php echo $row['id_auteur'];?></td>
                                 </tr>
                                 <tr>
                                     <td><b>Nom:</b></td>
@@ -58,9 +58,6 @@ $row = $idRequete -> fetch();
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                    </td>
-
                                     <td>
                                         <button type="submit" class="btn btn-primary"  name="modifierAuteur">Modifier</button>
                                     </td>

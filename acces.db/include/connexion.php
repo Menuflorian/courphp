@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Fonction de connxion à l'API: PDO
  * Utilisation des commandes definie dans
@@ -8,7 +7,6 @@
  * @param aucun
  * @return $cnx objet PDO
  */
-
 
 function connexion() {
     try{

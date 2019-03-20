@@ -1,8 +1,3 @@
-<?php
-require_once('../include/connexion.php');
-require_once('../include/executeSoft.php');
-require_once('../include/infoConnexion.php');
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
